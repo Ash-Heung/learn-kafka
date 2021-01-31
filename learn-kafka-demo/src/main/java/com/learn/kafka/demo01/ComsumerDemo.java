@@ -20,7 +20,7 @@ public class ComsumerDemo {
     public static void main(String[] args) throws Exception{
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.10.101:9092");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
         props.put("group.id", "test-group");
         props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");

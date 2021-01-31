@@ -19,7 +19,7 @@ public class ProducerDemo {
     public static void main(String[] args) throws Exception {
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "192.168.10.101:9092");
+        props.put("bootstrap.servers", "127.0.0.1:9092");
         props.put("acks", "all");
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
